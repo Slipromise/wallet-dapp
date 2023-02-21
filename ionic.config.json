@@ -1,0 +1,7 @@
+{
+  "name": "wallet-dapp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
