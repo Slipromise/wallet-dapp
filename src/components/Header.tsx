@@ -1,4 +1,4 @@
-import { IonHeader, IonToolbar, IonButtons, IonMenuButton, IonTitle } from '@ionic/react'
+import { IonHeader, IonToolbar, IonButtons, IonTitle, IonBackButton } from '@ionic/react'
 import React from 'react'
 
 type Props = {
@@ -10,7 +10,7 @@ export default function Header({title}: Props) {
     <IonHeader>
       <IonToolbar>
         <IonButtons slot="start">
-          <IonMenuButton />
+          <IonBackButton />
         </IonButtons>
         <IonTitle>{title}</IonTitle>
       </IonToolbar>
